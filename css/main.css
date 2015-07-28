@@ -1,0 +1,222 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@media (max-width: 767px){
+	body {
+	  padding-right: 0px; 
+	  padding-left: 0px; 
+	}
+	.container{
+	  padding-right: 10px; 
+	  padding-left: 10px;    
+	}
+
+	.navbar-fixed-top{
+		padding-right: 0px;
+		padding-left: 20px;
+
+	}
+
+
+}
+
+@media(max-width:979px){
+
+	#top-section{
+	background-color: white;
+	padding-top: 0;
+	}
+
+}
+
+@media(min-width:979px){
+	#top-section{
+	background-color: white;
+	padding-top: 80px;
+
+}
+}
+
+/** ==========================================================================
+   Header twiks
+   ========================================================================== */*/
+.navbar {
+	margin-bottom: 0;
+}
+
+#top-nav{
+	font-size: 1.2em;
+	margin-left: -1em;
+	
+}
+
+#top-nav a{
+	color: lightgreen;
+}
+
+.navbar .brand {
+	margin-top: 0.5em;
+	font-family: arial;
+	font-size: 3.2em;
+	color: white;
+}
+
+.navbar-inner p{
+	font-family: arial;
+	font-size: 1.4em;
+	color: white;
+	padding-top: 0.5em;
+    clear: both;
+}
+#title-about, #img-about{
+	margin-top: 100px;
+}
+#img-about>img{
+	float: right;
+	margin-right: 100px;
+	width:50%;
+	margin-bottom: 50px;
+}
+
+
+/* ==========================================================================
+   sections twiks
+   ========================================================================== */
+.block{
+    padding: 100px 0px;   
+}
+
+
+#first-section{
+	background-color: #111;
+	color:white;
+}
+#second-section{
+	background-color: white;
+}
+
+
+#third-section{
+	background-color: #666;
+	color:white;
+}
+
+#forth-section{
+	background-color: white;
+}
+
+#fifth-section{
+	background-color:#666;
+	color:white;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+footer{
+	height: 100px;
+	background-color: #111;
+	color: white;
+}
+
+.page-header {
+
+   border-bottom: none; 
+}
+
+/* ==========================================================================
+  diagonals
+   ========================================================================== */
+
+#diag-section-top{
+	position:relative;
+	top:50px;
+	background-color: white;
+	height:100px;
+	width: 100%;
+	 -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
+
+}
+
+
+#diag-section-1{
+	position:relative;
+	top:50px;
+	background-color: white;
+	height:120px;
+	width: 100%;
+	 -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+
+}
+
+#diag-section-2{
+	position:relative;
+	top:50px;
+	background-color: #666;
+	height:100px;
+	width: 100%;
+	 -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
+ 	
+}
+
+#diag-section-3{
+	position:relative;
+	top:50px;
+	background-color: white;
+	height:120px;
+	width: 100%;
+	 -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+    -o-transform: skewY(-3deg);
+    transform: skewY(-3deg);
+ 	
+}
+#diag-section-4{
+	position:relative;
+	top:50px;
+	background-color: #666;
+	height:100px;
+	width: 100%;
+	 -webkit-transform: skewY(3deg);
+    -moz-transform: skewY(3deg);
+    -ms-transform: skewY(3deg);
+    -o-transform: skewY(3deg);
+    transform: skewY(3deg);
+ 	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
