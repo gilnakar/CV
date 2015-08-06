@@ -18,6 +18,11 @@
 		padding-left: 20px;
 
 	}
+	#img-about>img{
+	margin-right: 25px;
+	
+
+	}
 
 
 }
@@ -36,12 +41,14 @@
 	background-color: white;
 	padding-top: 80px;
 
-}
+	}
 }
 
 /** ==========================================================================
    Header twiks
    ========================================================================== */*/
+
+
 .navbar {
 	margin-bottom: 0;
 }
@@ -72,11 +79,15 @@
 }
 #title-about, #img-about{
 	margin-top: 100px;
+	margin-bottom: 50px;
+	font-family:  "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 1.1em;
+	color: #222;
 }
 #img-about>img{
 	float: right;
-	margin-right: 100px;
-	width:50%;
+	
+	width:80%;
 	margin-bottom: 50px;
 }
 
@@ -90,8 +101,13 @@
 
 
 #first-section{
-	background-color: #111;
+	
 	color:white;
+	background-image: url(../img/dark_concrete.jpg); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #second-section{
 	background-color: white;
