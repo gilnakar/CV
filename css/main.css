@@ -18,8 +18,11 @@
 		padding-left: 20px;
 
 	}
-	#img-about>img{
-	margin-right: 25px;
+
+	#img-about {
+		width: 240px;
+		margin:0 ;
+
 	}
 
 	.CV-timeline-type{
@@ -40,11 +43,25 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 979px) {
+
+	#img-about {
+	margin:auto;
+	width: 300px; 
+	}	
+}
+
 @media(max-width:979px){
 
 	#top-section{
 	background-color: white;
 	padding-top: 0;
+	}
+	
+
+	.CV-timeline-type{
+		font-size: 2.4em !important;
+		line-height: 1em;
 	}
 
 }
@@ -55,6 +72,8 @@
 	padding-top: 80px;
 
 	}
+
+
 	
 }
 
@@ -126,11 +145,17 @@ li,ul{
 
 }
 
+#img-about{
+	margin-right: auto;
+
+}
+
 #img-about>img{
 	float: right;
 	width:80%;
 	margin-bottom: 60px;
 	margin-top: 60px;
+	
 }
 
 
@@ -259,7 +284,7 @@ footer{
 }
 
 /* ==========================================================================
-  experience list styles
+  experience Timeline styles
    ========================================================================== */
 .CV-timeline-type{
 	margin-bottom: 50px;
