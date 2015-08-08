@@ -20,8 +20,21 @@
 	}
 	#img-about>img{
 	margin-right: 25px;
-	
+	}
 
+	.CV-timeline-type{
+		font-size: 2.4em !important;
+		line-height: 1em;
+	}
+	.CV-timeline-title{
+		line-height: 1em;
+		margin-bottom: 20px !important;
+		display: block !important;
+	}
+
+
+	.CV-timeline-dates{
+		margin-bottom: 20px !important;
 	}
 
 
@@ -42,11 +55,27 @@
 	padding-top: 80px;
 
 	}
+	
 }
 
 /** ==========================================================================
-   Header twiks
+   General Styles
+   ========================================================================== */
+
+body{
+	font-family:  Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+li,ul{
+	list-style: none;
+}
+
+
+
+/** ==========================================================================
+   nav  twiks
    ========================================================================== */*/
+
 
 
 .navbar {
@@ -65,13 +94,12 @@
 
 .navbar .brand {
 	margin-top: 0.5em;
-	font-family: arial;
 	font-size: 3.2em;
 	color: white;
 }
 
 .navbar-inner p{
-	font-family: arial;
+	
 	font-size: 1.4em;
 	color: white;
 	padding-top: 0.5em;
@@ -80,15 +108,29 @@
 #title-about, #img-about{
 	margin-top: 100px;
 	margin-bottom: 50px;
-	font-family:  "Helvetica-Neue", "Helvetica", "Arial", sans-serif;
-	font-size: 1.1em;
-	color: #222;
 }
+
+
+#top-section p {
+	color: #555;
+	font-size: 1.2em;
+	line-height:1.4em;
+}
+
+#top-section {
+	color: #000;
+}
+
+#title-skills {
+	margin-top: 50px;
+
+}
+
 #img-about>img{
 	float: right;
-	
 	width:80%;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
+	margin-top: 60px;
 }
 
 
@@ -101,9 +143,8 @@
 
 
 #first-section{
-	
 	color:white;
-	background-image: url(../img/dark_concrete.jpg); 
+	background-image: url(../img/dark_concrete_background.jpg); 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -218,10 +259,62 @@ footer{
 }
 
 /* ==========================================================================
-  About section Styling
+  experience list styles
    ========================================================================== */
+.CV-timeline-type{
+	margin-bottom: 50px;
+	font-size: 5em;
+	color: #E0E0E0;
+	text-transform: uppercase;
+	font-style: italic;
+	
+}
+
+.CV-timeline-list{
+	border-left: 1px solid black;
+	padding-left: 20px;
+	margin-bottom: 150px;
+}
+
+.CV-timeline-item {
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	
+
+}
+
+.CV-timeline-title{
+	display: inline-block;
+	margin: 0;
+	font-style: italic;
+	font-weight: 200;
+	font-size: 1.6em;
+	text-transform: uppercase;
 
 
+}
+.CV-timeline-dates{
+	margin: 0;
+	font-weight: 100;
+	color: #555;
+}
+.CV-timeline-description li{
+	font-size: 0.9em;
+}
+
+.CV-timeline-item:before {
+  font-size: 1em;
+  content: "";
+  position: relative;
+  top: 20px;
+  left: -32px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 50%;
+}
 
 
 
