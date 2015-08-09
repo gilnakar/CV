@@ -29,6 +29,12 @@
 		font-size: 2.4em !important;
 		line-height: 1em;
 	}
+
+	.section_title{
+		font-size: 2.4em !important;
+		line-height: 1em;
+	}
+
 	.CV-timeline-title{
 		line-height: 1em;
 		margin-bottom: 20px !important;
@@ -60,6 +66,11 @@
 	
 
 	.CV-timeline-type{
+		font-size: 2.4em !important;
+		line-height: 1em;
+	}
+
+	.section_title{
 		font-size: 2.4em !important;
 		line-height: 1em;
 	}
@@ -339,6 +350,19 @@ footer{
   border: solid 1px black;
   background-color: white;
   border-radius: 50%;
+}
+
+.section_title{
+	margin-bottom: 50px;
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+	font-style: italic;
+	
+}
+.CV-timeline-description li{
+	line-height: 1.5em;
+	list-style: disc;
 }
 
 
