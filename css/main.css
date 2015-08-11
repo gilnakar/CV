@@ -45,6 +45,7 @@
 	.CV-timeline-dates{
 		margin-bottom: 20px !important;
 	}
+	
 
 
 }
@@ -74,6 +75,10 @@
 		font-size: 2.4em !important;
 		line-height: 1em;
 	}
+	#boxes{
+		display: none;	
+	}
+
 
 }
 
@@ -83,7 +88,7 @@
 	padding-top: 80px;
 
 	}
-
+	
 
 	
 }
@@ -305,6 +310,17 @@ footer{
 	list-style: disc;
 }
 
+#boxes{
+
+	position: absolute;
+	margin-top: 685px;
+	
+	left: 850px; right: 0; top:0; 
+	z-index: 1000;
+
+
+}
+
 /* ==========================================================================
   experience Timeline styles
    ========================================================================== */
@@ -366,7 +382,7 @@ footer{
 .section_title{
 	margin-bottom: 20px;
 	font-size: 5em;
-	color: #E0E0E0   ;
+	color: #D0D0D0   ;
 	text-transform: uppercase;
 	font-style: italic;
 	
