@@ -106,9 +106,7 @@ li,ul{
    nav  twiks
    ========================================================================== */*/
 
-a{
-	color: blue !important;
-}
+
 
 .navbar {
 	margin-bottom: 0;
@@ -303,6 +301,10 @@ footer{
 	
 }
 
+#title-skills ul li{
+	list-style: disc;
+}
+
 /* ==========================================================================
   experience Timeline styles
    ========================================================================== */
@@ -364,7 +366,7 @@ footer{
 .section_title{
 	margin-bottom: 20px;
 	font-size: 5em;
-	color: white;
+	color: #E0E0E0   ;
 	text-transform: uppercase;
 	font-style: italic;
 	
