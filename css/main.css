@@ -45,7 +45,10 @@
 	.CV-timeline-dates{
 		margin-bottom: 20px !important;
 	}
-	
+
+	#boxes{
+		display: none;	
+	}
 
 
 }
@@ -75,9 +78,9 @@
 		font-size: 2.4em !important;
 		line-height: 1em;
 	}
-	#boxes{
-		display: none;	
-	}
+
+
+	
 
 
 }
@@ -313,9 +316,9 @@ footer{
 #boxes{
 
 	position: absolute;
-	margin-top: 685px;
-	
-	left: 50; right: 0; top:0; 
+	margin-top: 200px;
+	width:100%;
+	left: 0; right: 0; top:0; 
 	z-index: 1000;
 
 

@@ -11,3 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+var s = Snap("#boxes");
+var p =Snap("#model");
+
+p.animate({
+	stroke: "lightgreen"},5000);
+p.animate({ transform: ('t300,250') }, 14000, mina.bounce );
+
+
+p.drag();
+
+
