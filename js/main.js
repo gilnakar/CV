@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
  
   var svg = new Walkway({
     selector: '#boxes',
-    duration: '25000',
+    duration: '90000',
     easing: 'linear'
   });
  
@@ -15,8 +15,8 @@ var s = Snap("#boxes");
 var p =Snap("#model");
 
 p.animate({
-	stroke: "lightgreen"},5000);
-p.animate({ transform: ('t300,250') }, 14000, mina.bounce );
+	stroke: "lightgreen"},9000);
+
 
 
 p.drag();
