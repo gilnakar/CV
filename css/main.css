@@ -20,7 +20,7 @@
 	}
 
 	#img-about {
-		width: 240px;
+		width: 40%;
 		margin:0 ;
 
 	}
@@ -57,7 +57,7 @@
 
 	#img-about {
 	margin:auto;
-	width: 300px; 
+	width: 40%; 
 	}	
 }
 
@@ -275,7 +275,7 @@ footer{
    ========================================================================== */
 
 
-#title-about, #img-about{
+#title-about {
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
@@ -297,15 +297,14 @@ footer{
 }
 
 #img-about{
-	margin-right: auto;
+	padding: 10%;
 
 }
 
 #img-about>img{
-	float: right;
-	width:80%;
+	width: 60%;	
 	margin-bottom: 60px;
-	margin-top: 60px;
+	
 	
 }
 
