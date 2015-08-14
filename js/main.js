@@ -26,13 +26,13 @@ $(window).scroll(function(){
   var windowHeight = $(this).height();
   var windowScrollTop = $(this).scrollTop();
   
-  // effect - No1
-  if(windowScrollTop>700){
-    $('.section_title').css('color','yellow');
-     }else{
-    $('.banner h2').css('color','black');
+  // // effect - No1
+  // if(windowScrollTop>700){
+  //   $('.section_title').css('color','yellow');
+  //    }else{
+  //   $('.banner h2').css('color','black');
    
-  }
+  // }
   
   // effect - No2
   var firstAnimation = function(){
