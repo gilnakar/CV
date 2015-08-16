@@ -528,8 +528,21 @@ a:hover figcaption {
 
 
 
+/* ==========================================================================
+  interests styles
+   ========================================================================== */
 
+#svg_interests{
+	position: relative;
+	
 
-
+}
+#interest_splat1{
+	
+	
+	position: absolute;
+	left:60;
+	
+}
 
 
